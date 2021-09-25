@@ -1,0 +1,31 @@
+.layout-gradient {
+  background-color: white;
+}
+
+.layout-content {
+  padding-top: 80px;
+  @media (max-width: 800px) {
+    padding-top: 0px;
+  }
+}
+
+.layout-menu {
+  margin-top: 45px;
+  background-color: transparent;
+  border: none;
+}
+
+.layout-logo {
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 0;
+  max-width: 160px;
+}
+
+// .ant-menu-submenu-title {
+//   color: white;
+// }
+
+// .ant-menu-submenu-popup > .ant-menu {
+//   background-color: black !important;
+// }

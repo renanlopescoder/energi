@@ -1,0 +1,31 @@
+{
+  "name": "energi-core",
+  "version": "1.0.0",
+  "description": "Block explorer for multiple blockchains",
+  "author": "renanlopescoder@gmail.com",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.15.2",
+    "babel-polyfill": "6.26.0",
+    "babel-register": "6.26.0",
+    "moralis": "^0.0.26",
+    "next": "^11.0.1-canary.5",
+    "next-images": "^1.6.0",
+    "next-sitemap": "^1.6.34",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-moralis": "^0.1.9",
+    "react-use-websocket": "^2.7.1",
+    "sass": "^1.32.10",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.2"
+  }
+}

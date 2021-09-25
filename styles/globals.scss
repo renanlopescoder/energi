@@ -1,0 +1,102 @@
+@import "~antd/dist/antd.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #434343;
+  outline: 1px solid rgb(59, 59, 59);
+}
+
+.card-reveal {
+  border-radius: 20px;
+  text-align: left;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  background: linear-gradient(
+    to right top,
+    #161b69,
+    #3d508b,
+    #1a6693,
+    #214891,
+    #161b69
+  );
+  cursor: pointer;
+
+  @media (max-width: 800px) {
+    height: 150px !important;
+  }
+}
+
+.sdk-grid {
+  margin-top: 70px;
+}
+
+.primary-button {
+  background-color: #00e675;
+  border-color: #00e675;
+}
+
+.primary-button:hover {
+  background-color: #00e675;
+  border-color: #00e675;
+}
+
+.ant-btn .ant-btn-lg .ant-btn-background-ghost {
+  border-color: #00e675 !important;
+}
+
+.ant-menu-title-content button {
+  border-color: #00e675 !important;
+}
+
+.ant-menu-title-content button:hover {
+  color: #00e675 !important;
+}
+
+.ant-menu-title-content button:focus {
+  color: #00e675 !important;
+}
+
+.ant-btn-background-ghost {
+  color: #06e576 !important;
+}
+
+.ant-menu-item:hover::after,
+.ant-menu-submenu:hover::after,
+.ant-menu-item-active::after,
+.ant-menu-submenu-active::after,
+.ant-menu-item-open::after,
+.ant-menu-submenu-open::after,
+.ant-menu-item-selected::after,
+.ant-menu-submenu-selected::after {
+  border-bottom-color: transparent !important;
+}
+
+.ant-menu-item:hover {
+  color: #00e675 !important;
+}
+
+.ant-menu-title-content:hover {
+  color: #00e675 !important;
+}
+
+@import "../src/components/Layout/Layout.styles.scss";
