@@ -14,3 +14,11 @@ Block explorer for multiple chains like Ethereum, Polygon, Binance Smart Chain a
 - Moralis
 - Vercel
 - Ant Design
+
+### Setup website environment
+
+Use Vercel CLI link to the project and pull project variables (npm i -g vercel)
+
+- `vercel link` - Options Y -> {username} -> Y -> {project name}
+- `vercel env pull`
+- `yarn dev`
